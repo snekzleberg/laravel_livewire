@@ -10,6 +10,12 @@ export default {
         './app/Livewire/**/*.php','./vendor/livewire/**/*.blade.php',
     ],
 
+    safelist: [
+        {
+            pattern: /.*/,
+        },
+    ],
+
     theme: {
         extend: {
             fontFamily: {
